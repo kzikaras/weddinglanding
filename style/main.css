@@ -13,8 +13,8 @@
 
 .content {
     grid-area: content;
-    background-color: rgba(138, 168, 196, 0.575);
-    height: 82vh;
+    background-color: rgba(138, 168, 196, 0.856);
+    height: 90vh;
     font-family: 'Julius Sans One', sans-serif;
     text-align: center;
 }
@@ -23,16 +23,31 @@
     margin: 22px;
 }
 
+.emphasize {
+    font-weight: bold;
+    font-size: 120%;
+}
+
 .empty {
     grid-area: empty;
 }
 
 .wrapper {
-    background-image: url('../beach.jpg');
+    background-image: url('../images/0.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
     overflow: hidden;
+    transition: background 0.5s linear;
+}
+
+p {
+    font-size: 110%;
+    padding: 4px;
+}
+
+h1, h2 {
+    padding: 4px;
 }
 
 #grid {
