@@ -42,7 +42,7 @@
     background-position: center;
     height: 100vh;
     overflow: hidden;
-    transition: background 1s linear;
+    transition: background 0.5s linear;
 }
 
 p {
@@ -69,10 +69,14 @@ h1, h2 {
         background-color: rgba(138, 116, 116, 0.486);
         font-family: 'Amatic SC', cursive;
         text-align: center;
-        font-size: 100%;
+        font-size: 130%;
+    }
+
+    .click-here {
+        font-size: 150%;
     }
     .wrapper {
-        background-image: url('../images/0.jpg');
+        background-image: url('../images/1.jpg');
         background-size: cover;
         background-position: center;
         overflow: scroll;
