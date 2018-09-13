@@ -5,4 +5,4 @@ setInterval(function(){
     if(num === 13){
         num = 0;
     }
-}, 6000)
+}, 2500)
